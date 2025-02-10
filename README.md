@@ -35,7 +35,7 @@ This project helps traders and investors make informed decisions by analyzing **
 
 ## 🎮 Demo
 
-🔗 **Live App on Streamlit**: [Click here to try it out](https://your-streamlit-app-link)  
+🔗 **Live App on Streamlit**: [Click here to try it out]([https://your-streamlit-app-link](https://newstock-eg69ihpnawrcxpc8eyjyur.streamlit.app/))  
 
 📽️ **Screenshots**  
 <img src="screenshots/dashboard.png" width="500px">  
