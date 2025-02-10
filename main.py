@@ -45,19 +45,19 @@ def show_dashboard():
         with summary_col1:
             st.markdown("""
             <div class="metric-container">
-                <h4>Top Gainers</h4>
-                <p>AAPL +3.2%</p>
-                <p>GOOGL +2.8%</p>
-                <p>MSFT +2.5%</p>
+                <h4 style="color: #000000;">Top Gainers</h4>
+                <p style="color: #000000;">AAPL +3.2%</p>
+                <p style="color: #000000;">GOOGL +2.8%</p>
+                <p style="color: #000000;">MSFT +2.5%</p>
             </div>
             """, unsafe_allow_html=True)
         with summary_col2:
             st.markdown("""
             <div class="metric-container">
-                <h4>Market Trends</h4>
-                <p>Technology: Bullish</p>
-                <p>Healthcare: Neutral</p>
-                <p>Energy: Bearish</p>
+                <h4 style="color: #000000;">Market Trends</h4>
+                <p style="color: #000000;">Technology: Bullish</p>
+                <p style="color: #000000;">Healthcare: Neutral</p>
+                <p style="color: #000000;">Energy: Bearish</p>
             </div>
             """, unsafe_allow_html=True)
 
