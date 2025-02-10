@@ -9,7 +9,8 @@ import pandas as pd
 
 # Initialize services
 auth = Authentication()
-news_service = NewsService(st.secrets["api_keys"]["NEWS_API"])
+news_api_key = st.secrets["api_keys"]["NEWS_API"]  # Fetch API key securely
+news_service = NewsService(news_api_key)
 
 sentiment_analyzer = SentimentAnalyzer()
 email_service = EmailService("smtp.gmail.com", 587, "your_email@gmail.com", "your_password")
